@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="top_sim_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="top_sim" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="10,169.159 ns"></ZoomStartTime>
+      <ZoomEndTime time="10,351.160 ns"></ZoomEndTime>
+      <Cursor1Time time="10,262.359 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="183"></NameColumnWidth>
+      <ValueColumnWidth column_width="237"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="15" />
+   <wvobject fp_name="/top_sim/reset" type="logic">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_sim/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_sim/clk_wait" type="logic">
+      <obj_property name="ElementShortName">clk_wait</obj_property>
+      <obj_property name="ObjectShortName">clk_wait</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_sim/input" type="array">
+      <obj_property name="ElementShortName">input[31:0]</obj_property>
+      <obj_property name="ObjectShortName">input[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_sim/Merge/reg_stage4" type="array">
+      <obj_property name="ElementShortName">reg_stage4[1023:0][31:0]</obj_property>
+      <obj_property name="ObjectShortName">reg_stage4[1023:0][31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_sim/Merge/reg_stage8" type="array">
+      <obj_property name="ElementShortName">reg_stage8[1023:0][31:0]</obj_property>
+      <obj_property name="ObjectShortName">reg_stage8[1023:0][31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_sim/Merge/reg_stage16_out" type="array">
+      <obj_property name="ElementShortName">reg_stage16_out[1023:0][31:0]</obj_property>
+      <obj_property name="ObjectShortName">reg_stage16_out[1023:0][31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_sim/Merge/reg_stage32_out" type="array">
+      <obj_property name="ElementShortName">reg_stage32_out[1023:0][31:0]</obj_property>
+      <obj_property name="ObjectShortName">reg_stage32_out[1023:0][31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_sim/Merge/reg_stage64_out" type="array">
+      <obj_property name="ElementShortName">reg_stage64_out[1023:0][31:0]</obj_property>
+      <obj_property name="ObjectShortName">reg_stage64_out[1023:0][31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_sim/Merge/reg_stage128_out" type="array">
+      <obj_property name="ElementShortName">reg_stage128_out[1023:0][31:0]</obj_property>
+      <obj_property name="ObjectShortName">reg_stage128_out[1023:0][31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_sim/Merge/reg_stage256_out" type="array">
+      <obj_property name="ElementShortName">reg_stage256_out[1023:0][31:0]</obj_property>
+      <obj_property name="ObjectShortName">reg_stage256_out[1023:0][31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_sim/Merge/reg_stage512_out" type="array">
+      <obj_property name="ElementShortName">reg_stage512_out[1023:0][31:0]</obj_property>
+      <obj_property name="ObjectShortName">reg_stage512_out[1023:0][31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_sim/Merge/reg_stage1024_out" type="array">
+      <obj_property name="ElementShortName">reg_stage1024_out[1023:0][31:0]</obj_property>
+      <obj_property name="ObjectShortName">reg_stage1024_out[1023:0][31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_sim/output" type="array">
+      <obj_property name="ElementShortName">output[31:0]</obj_property>
+      <obj_property name="ObjectShortName">output[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_sim/clk_period" type="other">
+      <obj_property name="ElementShortName">clk_period</obj_property>
+      <obj_property name="ObjectShortName">clk_period</obj_property>
+   </wvobject>
+</wave_config>
